@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         final EditText input = new EditText(this);
         builder.setView(input);
 
-        builder.setPositiveButton("Simpan", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("Simpann", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 SharedPreferenceUtility.saveUserName(getApplicationContext(),input.getText().toString());
